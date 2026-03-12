@@ -1,0 +1,100 @@
+[
+  {
+    "id": "youtube-arrowdown-blocker",
+    "name": "YouTube ArrowDown Blocker",
+    "slug": "youtube-arrowdown-blocker",
+    "category": "YouTube Tool",
+    "status": "Published",
+    "platform": "Chrome Extension",
+    "version": "1.0.0",
+    "language": "English",
+    "description": "Prevents accidental timeline rewinds on YouTube when the ArrowDown key is pressed.",
+    "longDescription": "YouTube ArrowDown Blocker is a lightweight browser utility built to stop unintended playback jumps caused by the ArrowDown shortcut. This starter entry demonstrates how each extension can have a dedicated project page and a separately linked privacy policy while still being managed from one JSON source.",
+    "github": "https://github.com/jmeno1011/YAB-extensions",
+    "chromeStore": "https://chromewebstore.google.com/detail/youtube-arrowdown-blocker/mjnkchfgapbgnfjmanmlglffaedcepof",
+    "privacyPath": "/extensions/youtube-arrowdown-blocker/privacy",
+    "highlights": [
+      "Blocks accidental Arrow Down rewinds only on YouTube watch pages.",
+      "Runs fully in the browser without analytics, tracking, or server communication.",
+      "Keeps the extension behavior minimal and focused on one usability problem."
+    ],
+    "technologies": [
+      "TypeScript",
+      "Chrome Extension APIs",
+      "Content Scripts",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "privacyPolicy": {
+      "productName": "YouTube ArrowDown Blocker",
+      "lastUpdated": "2025-12-09",
+      "summary": "This extension does not collect, store, transmit, or share any personal or technical data. All functionality runs locally within your browser, and no information ever leaves your device.",
+      "contactEmail": "whltn8282@gmail.com",
+      "sections": [
+        {
+          "title": "1. Overview",
+          "body": "YouTube ArrowDown Blocker is a lightweight Chrome extension that blocks the Arrow Down key on YouTube watch pages to prevent unwanted timeline rewinding after dragging. It operates exclusively as a local content script and does not communicate with external servers."
+        },
+        {
+          "title": "2. Data Collection",
+          "body": "This extension does not collect, store, log, or transmit any personal information, browsing history, technical identifiers, or usage analytics. No cookies or tracking mechanisms are used."
+        },
+        {
+          "title": "3. Data Use",
+          "body": "Because no data is collected, the extension does not use or process any data for analytics, advertising, personalization, or any other secondary purpose."
+        },
+        {
+          "title": "4. Data Sharing",
+          "body": "This extension does not share, sell, or transmit any information to third parties, advertisers, analytics providers, or external servers."
+        },
+        {
+          "title": "5. Permissions",
+          "body": "The extension requires no permissions beyond injecting a small content script into YouTube watch pages. Because no permissions such as storage, tabs, or network access are requested, the extension cannot access or modify any browser data outside of blocking the Arrow Down key event within the current page."
+        },
+        {
+          "title": "6. Children's Privacy",
+          "body": "The extension does not target children and does not knowingly collect any personal information from users of any age."
+        },
+        {
+          "title": "7. Changes to This Policy",
+          "body": "If this privacy policy is updated in the future, the 'Last updated' date will be adjusted accordingly. Any changes will remain consistent with Chrome Web Store Developer Program Policies."
+        },
+        {
+          "title": "8. Contact",
+          "body": "If you have questions about this privacy policy, please contact us at whltn8282@gmail.com."
+        }
+      ],
+      "dataPractices": [
+        {
+          "category": "personal",
+          "title": "Personal data (name, email, identifiers)",
+          "collects": false,
+          "description": "No personal information is collected, stored, or transferred by this extension.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "usage",
+          "title": "Usage data or analytics",
+          "collects": false,
+          "description": "No analytics, behavioral tracking, or activity logging is performed.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "technical",
+          "title": "Technical information",
+          "collects": false,
+          "description": "The extension does not collect device, browser, system, or network information.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "none",
+          "title": "General statement",
+          "collects": false,
+          "description": "All functionality runs entirely within the user's browser, and no data ever leaves the device.",
+          "sharedWithThirdParties": false
+        }
+      ],
+      "thirdPartiesDescription": "This extension does not send data to or integrate with any external APIs, services, analytics tools, or third-party platforms."
+    }
+  }
+]
