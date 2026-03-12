@@ -140,6 +140,24 @@ a {
     background-color: var(--primary);
   }
 
+  .theme-contrast-button {
+    background-color: #0f172a;
+    color: #ffffff;
+  }
+
+  .theme-contrast-button:hover {
+    background-color: #334155;
+  }
+
+  html.dark .theme-contrast-button {
+    background-color: #f1f5f9;
+    color: #0f172a;
+  }
+
+  html.dark .theme-contrast-button:hover {
+    background-color: #e2e8f0;
+  }
+
   .theme-border {
     border-color: var(--line);
   }

@@ -32,31 +32,6 @@ export function ExtensionCard({ extension }: ExtensionCardProps) {
           View Details
         </Link>
       </div>
-      {/* 
-      <div className="mt-2 flex flex-wrap gap-3 px-1">
-        <a
-          href={extension.github}
-          target="_blank"
-          rel="noreferrer"
-          className="flex items-center gap-2 rounded-xl bg-slate-900 px-4 py-3 text-sm font-bold text-white transition hover:bg-slate-700 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-slate-200"
-        >
-          <span className="material-symbols-outlined icon-18">code</span>
-          GitHub
-        </a>
-        {extension.chromeStore ? (
-          <a
-            href={extension.chromeStore}
-            target="_blank"
-            rel="noreferrer"
-            className="theme-primary-bg flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-bold text-white transition hover:opacity-90"
-          >
-            <span className="material-symbols-outlined icon-18">
-              open_in_new
-            </span>
-            Chrome Store
-          </a>
-        ) : null}
-      </div> */}
     </article>
   );
 }
