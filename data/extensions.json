@@ -1,5 +1,91 @@
 [
   {
+    "id": "custom-cursor-extension",
+    "name": "Custom Cursor Extension",
+    "slug": "custom-cursor-extension",
+    "category": "Customization Tool",
+    "status": "Published",
+    "platform": "Chrome Extension",
+    "version": "1.0.0",
+    "language": "English",
+    "description": "A simple demo extension that lets you change your cursor to an image or emoji.",
+    "longDescription": "Custom Cursor Extension is a simple demo Chrome extension that lets users personalize their browsing experience by replacing the default cursor with a custom image or emoji. It is included here as a lightweight example extension with its own project page and privacy policy route in the JSON-driven hub.",
+    "github": "https://github.com/jmeno1011/custom-cursor-extension",
+    "chromeStore": "https://chromewebstore.google.com/detail/custom-cursor-extension/klcadbnhcdfoodniepjbbndfoinpoemn",
+    "privacyPath": "/extensions/custom-cursor-extension/privacy",
+    "privacyPolicy": {
+      "productName": "Custom Cursor Extension",
+      "lastUpdated": "2026-01-29",
+      "summary": "This extension does not collect, store, transmit, or share any personal or technical data. All functionality runs locally within your browser, and no information ever leaves your device.",
+      "contactEmail": "whltn8282@gmail.com",
+      "sections": [
+        {
+          "title": "1. Overview",
+          "body": "Custom Cursor Extension is a simple Chrome extension that lets users change the cursor to a selected image or emoji for demonstration purposes. It operates locally in the browser and does not communicate with external servers."
+        },
+        {
+          "title": "2. Data Collection",
+          "body": "This extension does not collect, store, log, or transmit any personal information, browsing history, technical identifiers, or usage analytics. No cookies or tracking mechanisms are used."
+        },
+        {
+          "title": "3. Data Use",
+          "body": "Because no data is collected, the extension does not use or process any data for analytics, advertising, personalization, or any other secondary purpose."
+        },
+        {
+          "title": "4. Data Sharing",
+          "body": "This extension does not share, sell, or transmit any information to third parties, advertisers, analytics providers, or external servers."
+        },
+        {
+          "title": "5. Permissions",
+          "body": "The extension only uses the minimum browser capabilities required to render a custom cursor on supported pages. It does not request unnecessary permissions such as analytics, remote access, or unrelated browser data access."
+        },
+        {
+          "title": "6. Children's Privacy",
+          "body": "The extension does not target children and does not knowingly collect any personal information from users of any age."
+        },
+        {
+          "title": "7. Changes to This Policy",
+          "body": "If this privacy policy is updated in the future, the 'Last updated' date will be adjusted accordingly. Any changes will remain consistent with Chrome Web Store Developer Program Policies."
+        },
+        {
+          "title": "8. Contact",
+          "body": "If you have questions about this privacy policy, please contact us at whltn8282@gmail.com."
+        }
+      ],
+      "dataPractices": [
+        {
+          "category": "personal",
+          "title": "Personal data (name, email, identifiers)",
+          "collects": false,
+          "description": "No personal information is collected, stored, or transferred by this extension.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "usage",
+          "title": "Usage data or analytics",
+          "collects": false,
+          "description": "No analytics, behavioral tracking, or activity logging is performed.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "technical",
+          "title": "Technical information",
+          "collects": false,
+          "description": "The extension does not collect device, browser, system, or network information.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "none",
+          "title": "General statement",
+          "collects": false,
+          "description": "All functionality runs entirely within the user's browser, and no data ever leaves the device.",
+          "sharedWithThirdParties": false
+        }
+      ],
+      "thirdPartiesDescription": "This extension does not send data to or integrate with any external APIs, services, analytics tools, or third-party platforms."
+    }
+  },
+  {
     "id": "youtube-arrowdown-blocker",
     "name": "YouTube ArrowDown Blocker",
     "slug": "youtube-arrowdown-blocker",
@@ -13,18 +99,6 @@
     "github": "https://github.com/jmeno1011/YAB-extensions",
     "chromeStore": "https://chromewebstore.google.com/detail/youtube-arrowdown-blocker/mjnkchfgapbgnfjmanmlglffaedcepof",
     "privacyPath": "/extensions/youtube-arrowdown-blocker/privacy",
-    "highlights": [
-      "Blocks accidental Arrow Down rewinds only on YouTube watch pages.",
-      "Runs fully in the browser without analytics, tracking, or server communication.",
-      "Keeps the extension behavior minimal and focused on one usability problem."
-    ],
-    "technologies": [
-      "TypeScript",
-      "Chrome Extension APIs",
-      "Content Scripts",
-      "Next.js",
-      "Tailwind CSS"
-    ],
     "privacyPolicy": {
       "productName": "YouTube ArrowDown Blocker",
       "lastUpdated": "2025-12-09",
