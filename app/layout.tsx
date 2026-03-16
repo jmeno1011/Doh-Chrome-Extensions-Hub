@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout-header";
 import Footer from "@/components/layout-footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Chrome Extensions Hub",
@@ -31,6 +32,7 @@ export default function RootLayout({
           }}
         />
       </head>
+      <Analytics />
       <body className="theme-bg theme-text min-h-screen">
         <div className="relative flex min-h-screen flex-col overflow-x-hidden">
           <Header />
