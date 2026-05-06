@@ -12,7 +12,7 @@ export default function HeroComponent({ title, subtitle }: HeroComponentProps) {
         <span className="theme-primary-bg tracking-label inline-flex w-fit items-center rounded-full px-3 py-1 text-xs font-bold uppercase text-white">
           {title}
         </span>
-        <h1 className=" text-xl font-black leading-tight tracking-tight text-white md:text-3xl">
+        <h1 className="theme-text text-xl font-black leading-tight tracking-tight md:text-3xl">
           {subtitle}
         </h1>
       </div>

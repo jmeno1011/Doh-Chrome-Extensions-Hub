@@ -13,10 +13,10 @@ export function ExtensionCard({ extension }: ExtensionCardProps) {
           <span className="theme-primary-bg text-label-xs tracking-label inline-flex items-center rounded-full px-3 py-1 font-bold uppercase text-white">
             {extension.platform}
           </span>
-          <h3 className="mt-3 text-2xl font-black tracking-tight text-white">
+          <h3 className="theme-text mt-3 text-2xl font-black tracking-tight">
             {extension.name}
           </h3>
-          <p className="mt-2 text-sm text-white/80">{extension.category}</p>
+          <p className="theme-muted mt-2 text-sm">{extension.category}</p>
         </div>
       </div>
 

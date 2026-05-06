@@ -114,9 +114,9 @@ export default async function ExtensionDetailPage({ params }: PageProps) {
                   href={extension.chromeStore}
                   target="_blank"
                   rel="noreferrer"
-                  className="theme-primary-bg flex items-center justify-center gap-2 rounded-xl px-6 py-3 font-bold text-white transition hover:opacity-90"
+                  className="theme-primary-bg flex items-center justify-center gap-2 rounded-xl px-6 py-3 font-bold !text-white transition hover:opacity-90"
                 >
-                  <span className="material-symbols-outlined text-xl">
+                  <span className="material-symbols-outlined text-xl !text-white">
                     open_in_new
                   </span>
                   Chrome Web Store
