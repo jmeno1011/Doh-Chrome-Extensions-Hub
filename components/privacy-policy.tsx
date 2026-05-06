@@ -76,15 +76,23 @@ export default function PrivacyPolicy({ privacyContent }: PrivacyPolicyProps) {
 
       {contactEmail ? (
         <footer className="mt-8 text-base">
-          <p>
-            For any questions about this policy, please contact:{" "}
+          <p>For any questions about this policy, please contact:</p>
+          <div className="mt-2 flex flex-col gap-2">
             <a
               className="theme-primary underline"
               href={`mailto:${contactEmail}`}
             >
               {contactEmail}
             </a>
-          </p>
+            <a
+              className="theme-primary underline"
+              href="https://www.linkedin.com/in/dohyoungkim1011"
+              target="_blank"
+              rel="noreferrer"
+            >
+              www.linkedin.com/in/dohyoungkim1011
+            </a>
+          </div>
         </footer>
       ) : null}
     </main>

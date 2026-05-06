@@ -31,7 +31,7 @@ export default function Header() {
               Projects
             </Link>
             <a
-              href="mailto:privacy@whltn8282@gmail.com"
+              href="#contact"
               className="theme-muted theme-text-hover text-sm font-medium transition"
             >
               Contact

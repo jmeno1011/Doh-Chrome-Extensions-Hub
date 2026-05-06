@@ -182,12 +182,12 @@
     "language": "English",
     "description": "Controls HTML5 video playback with keyboard shortcuts on registered websites.",
     "longDescription": "KeyVid is a lightweight browser extension that lets users control HTML5 video playback with keyboard shortcuts on websites they register. It runs locally in the browser, stores only the approved site list in local storage, and does not send user data to external servers.",
-    "github": "",
-    "chromeStore": "",
+    "github": "https://github.com/jmeno1011/Keyvid",
+    "chromeStore": "https://chromewebstore.google.com/detail/keyvid/gmlicfoafekibamhnmdkcpcbicopjagf",
     "privacyPath": "/extensions/keyvid/privacy",
     "privacyPolicy": {
       "productName": "KeyVid",
-      "lastUpdated": "2026-04-29",
+      "lastUpdated": "2026-04-30",
       "summary": "KeyVid does not collect, store, transmit, or share personal or technical data. The extension stores only the user’s registered website list locally in the browser so it can enable video shortcuts on approved sites.",
       "contactEmail": "whltn8282@gmail.com",
       "sections": [
