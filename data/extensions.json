@@ -256,5 +256,91 @@
       ],
       "thirdPartiesDescription": "KeyVid does not send user data to external APIs, analytics tools, advertising platforms, or third-party services."
     }
+  },
+  {
+    "id": "stock-percent-calculator",
+    "name": "Stock Percent Calculator",
+    "slug": "stock-percent-calculator",
+    "category": "Finance",
+    "status": "Published",
+    "platform": "Chrome Extension",
+    "version": "1.0.0",
+    "language": "Korean",
+    "description": "Calculate stock target prices and profit percentages with trading fees included.",
+    "longDescription": "Stock Percent Calculator is a lightweight Chrome extension that helps traders quickly calculate target prices and profit percentages while accounting for trading fees. Users can enter a buy price and target return percentage to calculate a target price, or enter a target price to calculate the actual return percentage. All settings and inputs are stored locally using Chrome Storage and remain available when reopening the extension.",
+    "github": "",
+    "chromeStore": "",
+    "privacyPath": "/extensions/stock-percent-calculator/privacy",
+    "privacyPolicy": {
+      "productName": "Stock Percent Calculator",
+      "lastUpdated": "2026-06-17",
+      "summary": "Stock Percent Calculator does not collect, transmit, or share any personal or technical data. The extension stores user inputs and preferences locally using Chrome Storage to provide a better user experience.",
+      "contactEmail": "whltn8282@gmail.com",
+      "sections": [
+        {
+          "title": "1. Overview",
+          "body": "Stock Percent Calculator is a Chrome extension that calculates stock target prices, profit percentages, and net profit while considering trading fees. All calculations are performed locally within the browser."
+        },
+        {
+          "title": "2. Data Collection",
+          "body": "The extension does not collect personal information, browsing history, analytics, usage statistics, or technical identifiers. It stores only user-entered values such as buy price, target percentage, fee settings, and calculation preferences locally in Chrome Storage."
+        },
+        {
+          "title": "3. Data Use",
+          "body": "Stored values are used solely to restore the user's previous inputs and settings when reopening the extension. No information is used for analytics, advertising, profiling, or any unrelated purpose."
+        },
+        {
+          "title": "4. Data Sharing",
+          "body": "Stock Percent Calculator does not transmit, sell, share, or provide user data to third parties, advertisers, analytics services, or external systems."
+        },
+        {
+          "title": "5. Permissions",
+          "body": "The extension uses the Chrome storage permission only to save user inputs, fee settings, and calculation preferences locally within the browser."
+        },
+        {
+          "title": "6. Children's Privacy",
+          "body": "The extension is intended for general users and does not knowingly collect personal information from children or users of any age."
+        },
+        {
+          "title": "7. Changes to This Policy",
+          "body": "If this privacy policy changes in future versions, the Last Updated date will be revised accordingly. The policy will continue to accurately reflect the extension's actual behavior."
+        },
+        {
+          "title": "8. Contact",
+          "body": "If you have any questions regarding this privacy policy, please contact whltn8282@gmail.com."
+        }
+      ],
+      "dataPractices": [
+        {
+          "category": "personal",
+          "title": "Personal data (name, email, identifiers)",
+          "collects": false,
+          "description": "The extension does not collect or transmit personal information.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "usage",
+          "title": "Usage data or analytics",
+          "collects": false,
+          "description": "The extension does not collect analytics, behavioral tracking, or usage statistics.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "technical",
+          "title": "Technical information",
+          "collects": false,
+          "description": "The extension does not collect device, browser, operating system, or network information.",
+          "sharedWithThirdParties": false
+        },
+        {
+          "category": "local-storage",
+          "title": "Local settings and calculation values",
+          "collects": false,
+          "description": "User-entered values, fee settings, and preferences are stored only in Chrome local storage and are never transmitted externally.",
+          "sharedWithThirdParties": false
+        }
+      ],
+      "thirdPartiesDescription": "Stock Percent Calculator does not use third-party analytics services, advertising platforms, external APIs, or data processing providers."
+    }
   }
 ]
