@@ -268,8 +268,8 @@
     "language": "Korean",
     "description": "Calculate stock target prices and profit percentages with trading fees included.",
     "longDescription": "Stock Percent Calculator is a lightweight Chrome extension that helps traders quickly calculate target prices and profit percentages while accounting for trading fees. Users can enter a buy price and target return percentage to calculate a target price, or enter a target price to calculate the actual return percentage. All settings and inputs are stored locally using Chrome Storage and remain available when reopening the extension.",
-    "github": "",
-    "chromeStore": "",
+    "github": "https://github.com/jmeno1011/Stock-Percent-Calculator",
+    "chromeStore": "https://chromewebstore.google.com/detail/stock-percent-calculator/fdhjdfcgccdcihalhnilkhhgckpfjbpp?authuser=0&hl=en-GB",
     "privacyPath": "/extensions/stock-percent-calculator/privacy",
     "privacyPolicy": {
       "productName": "Stock Percent Calculator",
