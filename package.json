@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "validate:extensions": "node scripts/validate-extensions-json.js",
     "build": "next build",
     "typecheck": "tsc --noEmit"
   },
