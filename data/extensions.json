@@ -342,5 +342,42 @@
       ],
       "thirdPartiesDescription": "Stock Percent Calculator does not use third-party analytics services, advertising platforms, external APIs, or data processing providers."
     }
+  },
+  {
+    "id": "tab-focus-timer",
+    "name": "Tab Focus Timer",
+    "slug": "tab-focus-timer",
+    "category": "Productivity",
+    "status": "Draft",
+    "platform": "Chrome Extension",
+    "version": "1.0.0",
+    "language": "English",
+    "description": "Lightweight Chrome extension to limit time on distracting websites and help users stay focused.",
+    "longDescription": "Tab Focus Timer is a lightweight Chrome Extension that helps users stay focused by limiting time spent on distracting websites. Set daily time limits for any site, receive automatic reminders when limits are reached, and reset timers every day. Features include pausing or resuming monitoring at any time, dark mode support, and fast performance. All data is saved locally with no account required. The extension does all processing inside the browser without uploading browsing history or collecting personal information.",
+    "github": "",
+    "chromeStore": "",
+    "privacyPath": "/extensions/tab-focus-timer/privacy",
+    "privacyPolicy": {
+      "productName": "Tab Focus Timer",
+      "lastUpdated": "2026-07-02",
+      "summary": "Tab Focus Timer processes all data locally in the browser and does not collect or share any personal information.",
+      "contactEmail": "dev.tono.kim@gmail.com",
+      "sections": [
+        {
+          "title": "1. Overview",
+          "body": "The extension performs all processing locally inside the browser. It does not upload browsing history to any external server. No analytics or tracking services are used, and no personal information is collected."
+        }
+      ],
+      "dataPractices": [
+        {
+          "category": "personal",
+          "title": "Personal data",
+          "collects": false,
+          "description": "The extension does not collect or store any personal data from users.",
+          "sharedWithThirdParties": false
+        }
+      ],
+      "thirdPartiesDescription": "This extension does not share any data with third parties."
+    }
   }
 ]
