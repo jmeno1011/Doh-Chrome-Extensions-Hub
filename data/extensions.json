@@ -342,5 +342,42 @@
       ],
       "thirdPartiesDescription": "Stock Percent Calculator does not use third-party analytics services, advertising platforms, external APIs, or data processing providers."
     }
+  },
+  {
+    "id": "tab-focus-timer",
+    "name": "Tab Focus Timer",
+    "slug": "tab-focus-timer",
+    "category": "test",
+    "status": "Draft",
+    "platform": "Chrome Extension",
+    "version": "1.0.0",
+    "language": "English",
+    "description": "Lightweight Chrome extension to limit time spent on distracting websites and boost focus.",
+    "longDescription": "Tab Focus Timer is a lightweight Chrome Extension that helps users stay focused by limiting time spent on distracting websites. Users can set daily time limits per site, receive reminders when limits are reached, and reset timers daily. The extension supports pausing/resuming monitoring and offers a dark mode. All data is stored locally, with no accounts required. It uses permissions for storage, tabs, and alarms to track browsing time and reset timers automatically. Plans include weekly focus reports and cloud backup options.",
+    "github": "",
+    "chromeStore": "",
+    "privacyPath": "/extensions/tab-focus-timer/privacy",
+    "privacyPolicy": {
+      "productName": "Tab Focus Timer",
+      "lastUpdated": "2026-07-02",
+      "summary": "The extension processes all data locally within the browser and does not collect or share any personal information.",
+      "contactEmail": "dev.tono.kim@gmail.com",
+      "sections": [
+        {
+          "title": "1. Overview",
+          "body": "Tab Focus Timer performs all processing locally in the browser. It does not upload browsing history or personal data to any external servers. No analytics or tracking services are used."
+        }
+      ],
+      "dataPractices": [
+        {
+          "category": "personal",
+          "title": "Personal data",
+          "collects": false,
+          "description": "The extension does not collect any personal information from users.",
+          "sharedWithThirdParties": false
+        }
+      ],
+      "thirdPartiesDescription": "The extension does not share any user data with third parties."
+    }
   }
 ]
