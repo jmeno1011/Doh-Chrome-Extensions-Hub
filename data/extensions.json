@@ -379,5 +379,42 @@
       ],
       "thirdPartiesDescription": "This extension does not share any data with third parties."
     }
+  },
+  {
+    "id": "cursor-hide-for-disney-plus",
+    "name": "Cursor Hide for Disney Plus",
+    "slug": "cursor-hide-for-disney-plus",
+    "category": "Accessibility",
+    "status": "Draft",
+    "platform": "Chrome Extension",
+    "version": "1.5.0",
+    "language": "English",
+    "description": "Automatically hides cursor after 2 seconds of inactivity in Disney Plus fullscreen player with F key fullscreen shortcut.",
+    "longDescription": "Cursor Hide for Disney Plus is a Chrome extension that automatically hides your mouse cursor after 2 seconds of inactivity in the Disney Plus fullscreen player. Move or click your mouse to show it again, or press *F* to enter or exit fullscreen. The extension requires no setup panel, no extra permissions, and supports content scripts limited to Disney Plus pages. It works with ordinary DOM and nested open Shadow DOM, and restores the original cursor style when fullscreen ends. No analytics, external requests, or persistent storage are used. This extension enhances the viewing experience by hiding distracting cursors during fullscreen playback and providing a convenient fullscreen toggle shortcut.",
+    "github": "",
+    "chromeStore": "",
+    "privacyPath": "/extensions/cursor-hide-for-disney-plus/privacy",
+    "privacyPolicy": {
+      "productName": "Cursor Hide for Disney Plus",
+      "lastUpdated": "2026-07-02",
+      "summary": "This extension does not collect personal data or share information with third parties. It runs locally on Disney Plus pages to hide the cursor and manage fullscreen shortcuts without tracking or analytics.",
+      "contactEmail": "dev.tono.kim@gmail.com",
+      "sections": [
+        {
+          "title": "1. Overview",
+          "body": "Cursor Hide for Disney Plus operates solely on Disney Plus web pages to enhance user experience by hiding the mouse cursor during fullscreen playback. It does not collect personal data, send information outside the user's device, or use persistent storage."
+        }
+      ],
+      "dataPractices": [
+        {
+          "category": "personal",
+          "title": "Personal data",
+          "collects": false,
+          "description": "The extension does not collect personal data or track user behavior.",
+          "sharedWithThirdParties": false
+        }
+      ],
+      "thirdPartiesDescription": "No data is shared with third parties, as no personal or usage data is collected by the extension."
+    }
   }
 ]
